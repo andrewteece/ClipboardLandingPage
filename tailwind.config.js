@@ -1,5 +1,7 @@
 module.exports = {
   content: ['./*.html'],
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
       sm: '480px',
@@ -18,6 +20,9 @@ module.exports = {
         sans: ['Bai Jamjuree', 'sans-serif'],
       },
     },
+  },
+  variants: {
+    extend: {},
   },
   plugins: [],
 }
